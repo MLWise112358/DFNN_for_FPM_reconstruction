@@ -94,7 +94,7 @@ def model_test(args):
         elif args.sample == 'Hela':
             sample_path = r'data\test_7x7_vitroHela'
             abs_v = [0.2, 0.75]
-            pha_v = [-0.2, 2.0]
+            pha_v = [-1.6, 2.2]
 
         print('Reconstructing--->')
         for i in range(49):
